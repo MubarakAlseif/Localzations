@@ -13,6 +13,7 @@
 		CC5F34E9272A76FE00E313BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5F34E7272A76FE00E313BE /* Main.storyboard */; };
 		CC5F34EB272A76FF00E313BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5F34EA272A76FF00E313BE /* Assets.xcassets */; };
 		CC5F34EE272A76FF00E313BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5F34EC272A76FF00E313BE /* LaunchScreen.storyboard */; };
+		CC5F34F9272A8B4400E313BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC5F34FB272A8B4400E313BE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		CC5F34EA272A76FF00E313BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC5F34ED272A76FF00E313BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC5F34EF272A76FF00E313BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5F34F5272A7D9300E313BE /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
+		CC5F34F6272A7D9300E313BE /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CC5F34FA272A8B4400E313BE /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 				CC5F34E1272A76FE00E313BE /* AppDelegate.swift */,
 				CC5F34E3272A76FE00E313BE /* SceneDelegate.swift */,
 				CC5F34E5272A76FE00E313BE /* ViewController.swift */,
+				CC5F34FB272A8B4400E313BE /* Localizable.strings */,
 				CC5F34E7272A76FE00E313BE /* Main.storyboard */,
 				CC5F34EA272A76FF00E313BE /* Assets.xcassets */,
 				CC5F34EC272A76FF00E313BE /* LaunchScreen.storyboard */,
@@ -109,6 +114,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ar-SA",
 			);
 			mainGroup = CC5F34D5272A76FE00E313BE;
 			productRefGroup = CC5F34DF272A76FE00E313BE /* Products */;
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC5F34EE272A76FF00E313BE /* LaunchScreen.storyboard in Resources */,
+				CC5F34F9272A8B4400E313BE /* Localizable.strings in Resources */,
 				CC5F34EB272A76FF00E313BE /* Assets.xcassets in Resources */,
 				CC5F34E9272A76FE00E313BE /* Main.storyboard in Resources */,
 			);
@@ -151,6 +158,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CC5F34E8272A76FE00E313BE /* Base */,
+				CC5F34F5272A7D9300E313BE /* ar-SA */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +167,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				CC5F34ED272A76FF00E313BE /* Base */,
+				CC5F34F6272A7D9300E313BE /* ar-SA */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CC5F34FB272A8B4400E313BE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5F34FA272A8B4400E313BE /* ar-SA */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

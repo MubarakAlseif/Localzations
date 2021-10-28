@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Second"; ObjectID = "Ke0-z8-9nV"; */
+"Ke0-z8-9nV.text" = "الثاني";
+
+/* Class = "UILabel"; text = "First"; ObjectID = "Raz-jN-lik"; */
+"Raz-jN-lik.text" = "الأول";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "SRr-hI-mBu"; */
+"SRr-hI-mBu.title" = "الملف الشخصي";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ujy-TK-XLj"; */
+"Ujy-TK-XLj.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "VGf-yd-lWR"; */
+"VGf-yd-lWR.title" = "الرئيسية";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "Xt6-mk-DYb"; */
+"Xt6-mk-DYb.title" = "الملف الشخصي";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "kVW-1z-y7a"; */
+"kVW-1z-y7a.title" = "الرئيسية";
